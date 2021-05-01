@@ -1,6 +1,7 @@
 .sidebar{
-    background-image: linear-gradient(40deg, #19d3ae,#0fcfec);
-    height: 182vh;
+    background-image: linear-gradient(40deg, #1ab188,rgba(160, 179, 176, 0.25));
+    height: 950px;
+    width: 200px;
 }
 
 .sidebar li{
@@ -11,4 +12,8 @@
 .sidebar li:hover{
     display: inline-block;
     transform: translate(5px);
+}
+
+.sidebar button{
+    width: 120px;
 }
